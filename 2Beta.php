@@ -1,0 +1,23 @@
+<?php
+// รับคะแนนจากผู้ใช้
+$score = readline("กรุณาใส่คะแนน: ");
+
+// ตรวจสอบคะแนนและแสดงเกรด
+if ($score >= 90) {
+  $grade = "A";
+} else if ($score >= 80) {
+  $grade = "B";
+} else if ($score >= 70) {
+  $grade = "C";
+} else if ($score >= 60) {
+  $grade = "D";
+} else {
+  $grade = "F";
+}
+
+// รับชื่อจากผู้ใช้
+$name = readline("กรุณาใส่ชื่อ: ");
+
+// แสดงผลลัพธ์
+echo "$name ได้คะแนน $score คะแนน ได้เกรด $grade\n";
+?>

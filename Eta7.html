@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+form{
+        padding-left: 40px;
+    }
+    input{
+        margin-top: 19px;
+    }
+</style>
+<body>
+    <center>
+    <table border=1 width="95%">
+            <td>
+        <h1 style="text-align: center;">Student Registration Form</h1>
+    </td>
+    </table>
+</center>
+<form action="#" method="post">
+    Name <input type="text" name="txtname" id="txtname"/><br>
+    Father's Name <input type="text" name="txtfather" id="txtfather"/><br>
+    Mother's Name <input type="text" name="txtmother" id="txtmother"/><br>
+    Phone number <input type="text" name="phonenum" id="phonenum"/><br>
+    Email <input type="email" name="email" id="email"/><br>
+    Gender <input type="radio" name="sex" id="1" checked/>Male
+    <input type="radio" name="sex" id="2" checked/>Female
+    <input type="radio" name="sex" id="3" checked/>Other<br>
+    Date Of Birth <input type="date" name="date" id="date"/><br>
+    <td><h4>Blood Group</h4></td>
+    <td><select name="bloodg" id="bg">
+    <option value="1">O</option>
+    <option value="2">A</option>
+    <option value="3">B</option>
+    <option value="4">AB</option>
+    </select></td><br>
+    Departmen <input type="radio" name="departmen" id="departmen"/>
+    <input type="radio" name="cse" id="01" checked/>CSE
+    <input type="radio" name="cse" id="02" checked/>EEE
+    <input type="radio" name="cse" id="03" checked/>BBA<br>
+    Cours <input type="checkbox" name="co" id="co1"/>C
+    <input type="checkbox" name="co" id="co11"/>C++
+    <input type="checkbox" name="co" id="co12"/>Java
+    <input type="checkbox" name="co" id="co13"/>AI
+    <input type="checkbox" name="co" id="co14"/>Machine learning
+    <input type="checkbox" name="co" id="co15"/>Robotics<br>
+    Photo <input type="image" name="image" id="image1"/><br><br><br><br>
+    <input type="submit"/>
+    <input type="reset"/>
+</form>
+    </body>
+</html>
